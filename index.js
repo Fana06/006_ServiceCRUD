@@ -34,7 +34,7 @@ app.get('/', async (req, res) => {
 
 
 /* POST: Menambahkan biodata */
-app.post('/biodata', async (req, res) => {
+app.post('/biodata', async (req, res) => { 
     const { nama, nim, kelas } = req.body;
 
     if (!nama || !nim || !kelas) {
