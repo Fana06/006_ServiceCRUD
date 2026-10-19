@@ -1,6 +1,9 @@
 {
   "name": "pertemuan6",
   "version": "1.0.0",
+  "engines": {
+  "node": ">=20"
+},
   "description": "REST API CRUD mahasiswa menggunakan Express.js dan PostgreSQL",
   "main": "index.js",
   "scripts": {
