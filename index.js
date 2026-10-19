@@ -101,7 +101,7 @@ app.put('/biodata/:id', async (req, res) => {
 });
 
 /* DELETE: Menghapus biodata */
-app.delete('/biodata/:id', async (req, res) => {
+app.delete('/biodata/:id', async (req, res) => { 
     try {
         const result = await pool.query(
             'DELETE FROM biodata WHERE id = $1 RETURNING *',
